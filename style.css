@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+  }
+
+#home-hade{
+    background-image: url(img/vintage-old-rustic-cutlery-dark.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    /* background-repeat: no-repeat;  */
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    /* margin-top: 150px; */
+    padding: 3em 0em 0.5em 0em;
+    font-family: 'Raleway',
+}
+
+form{
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    /* margin-top; */
+    /* margin-top: 100px; */
+}
+
+input, button{
+    height: 2.5em;
+}
+input{
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+width: 40%;}
+button{
+    border: none;
+    background-color: chocolate;
+    width: 2.5em;
+    border-radius: 0px 10px 10px 0px;
+}
+a{
+    padding-left: -10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
